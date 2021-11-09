@@ -1,2 +1,0 @@
-# SI_UEMG2021ProgIV
-ProgIV
