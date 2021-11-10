@@ -3,7 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/ProgIV/SI_UEMG2021ProgIV/PrimeiroApp/app/src/main/res/layout/activity_main.xml" value="0.10840932117527863" />
+        <entry key="..\:/ProgIV/SI_UEMG2021ProgIV/PrimeiroApp/app/src/main/res/layout/activity_display_message.xml" value="0.10840932117527863" />
+        <entry key="..\:/ProgIV/SI_UEMG2021ProgIV/PrimeiroApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
       </map>
     </option>
   </component>
@@ -12,5 +13,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.10840932117527863" />
+      </ProjectState>
+    </option>
   </component>
 </project>
