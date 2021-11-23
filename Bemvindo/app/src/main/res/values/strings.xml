@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">BemVindo</string>
+    <string name="welcome">Bem vindo a minha aplicação Bemvindo!</string>
+    <string name="texto2">Mensagem de boas vindas da minha aplicação!</string>
+    <string name="image_description">Imagem da nossa matéria.</string>
+
 </resources>
