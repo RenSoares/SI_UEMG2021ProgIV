@@ -175,6 +175,20 @@ public class MainActivity extends AppCompatActivity {
                 proximoNumero();
             }
         });
+        btnDiv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                operacao = "div";
+                proximoNumero();
+            }
+        });
+        btnMult.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                operacao = "mult";
+                proximoNumero();
+            }
+        });
         btnIgual.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -227,6 +241,8 @@ public class MainActivity extends AppCompatActivity {
             //executa a operação de sai do switch.
             case "soma": Total = (Result[0] + Result[1]); break;
             case "sub":  Total = (Result[0] - Result[1]); break;
+            case "div": Total = (Result[0] / Result[1]); break;
+            case "mult":  Total = (Result[0] * Result[1]); break;
         }
         // se for um valor invalido.
         if(Total < INVALID){
