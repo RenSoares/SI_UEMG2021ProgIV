@@ -164,6 +164,8 @@ public class MainActivity extends AppCompatActivity {
         btnSoma.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if(Result[0] > 0 && Result[1] > 0 )
+                    sinalIgual();
                 operacao = "soma";
                 proximoNumero();
             }
@@ -171,6 +173,8 @@ public class MainActivity extends AppCompatActivity {
         btnSub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if(Result[0] > 0 && Result[1] > 0 )
+                    sinalIgual();
                 operacao = "sub";
                 proximoNumero();
             }
@@ -178,6 +182,8 @@ public class MainActivity extends AppCompatActivity {
         btnDiv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if(Result[0] > 0 && Result[1] > 0 )
+                    sinalIgual();
                 operacao = "div";
                 proximoNumero();
             }
@@ -185,6 +191,8 @@ public class MainActivity extends AppCompatActivity {
         btnMult.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if(Result[0] > 0 && Result[1] > 0 )
+                    sinalIgual();
                 operacao = "mult";
                 proximoNumero();
             }
@@ -192,10 +200,7 @@ public class MainActivity extends AppCompatActivity {
         btnIgual.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                calcular();
-                exibirResultado(); // trocar oresultado na tela.
-                Total = 0; // zerar valor total.
-                count = 0;// zerar contador
+                sinalIgual();
             }
         });
         btnLimp.setOnClickListener(new View.OnClickListener() {
@@ -204,8 +209,13 @@ public class MainActivity extends AppCompatActivity {
                 limpar();
             }
         });
+    }
 
-
+    private void sinalIgual(){
+        calcular();
+        exibirResultado(); // trocar oresultado na tela.
+        Total = 0; // zerar valor total.
+        count = 0;// zerar contador
     }
 
     private void exibirResultado(){
