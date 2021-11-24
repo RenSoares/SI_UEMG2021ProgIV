@@ -6,8 +6,10 @@
         <entry key="..\:/ProgIV/SI_UEMG2021ProgIV/BemVindo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.23958333333333334" />
         <entry key="..\:/ProgIV/SI_UEMG2021ProgIV/BemVindo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.23958333333333334" />
         <entry key="..\:/ProgIV/SI_UEMG2021ProgIV/BemVindo/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/ProgIV/SI_UEMG2021ProgIV/Bemvindo/app/src/main/res/layout-land/activity_main.xml" value="0.1" />
-        <entry key="..\:/ProgIV/SI_UEMG2021ProgIV/Bemvindo/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/ProgIV/SI_UEMG2021ProgIV/Bemvindo/app/src/main/res/layout-1024x600/activity_main.xml" value="0.33" />
+        <entry key="..\:/ProgIV/SI_UEMG2021ProgIV/Bemvindo/app/src/main/res/layout-1280x720/activity_main.xml" value="0.33515625" />
+        <entry key="..\:/ProgIV/SI_UEMG2021ProgIV/Bemvindo/app/src/main/res/layout-land/activity_main.xml" value="0.25" />
+        <entry key="..\:/ProgIV/SI_UEMG2021ProgIV/Bemvindo/app/src/main/res/layout/activity_main.xml" value="0.22" />
       </map>
     </option>
   </component>
