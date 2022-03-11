@@ -33,10 +33,10 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, R.string.toast_informe_peso, Toast.LENGTH_SHORT).show()
             }else if (edit_idade.text.toString().isEmpty()){
                 Toast.makeText(this, R.string.toast_informe_idade, Toast.LENGTH_SHORT).show()
-            }ele{
+            }else{
                 val peso = edit_peso.text.toString().toDouble()
                 val idade = edit_idade.text.toString().toInt()
-                calcularIngestaoDiaria.CalcularTotalML(peso, idade)
+                calcularIngestaoDiaria.CalcularTotalMl(peso, idade)
                 resultadoMl = calcularIngestaoDiaria.ResultadoMl()
                 val formatar = NumberFormat.getNumberInstance(Locale("pt", "BR"))
                 formatar.isGroupingUsed = false
@@ -46,15 +46,17 @@ class MainActivity : AppCompatActivity() {
 
         ic_redefinir_dados.setOnClickListener {
 
-            val alertDialog = AlertDialog(this)
+            val alertDialog = AlertDialog.Builder(this)
             alertDialog.setTitle(R.string.dialog_titulo)
-                .setMessage(R.string.dialog_desc)
-                .setPositiveButton("OK", {dialogInterface, i ->
-                    edit_peso.setText("")
-                    edit_idade.setText("")
-                    txt_resultado_ml.text = ""
+                        .setMessage(R.string.dialog_desc)
+                        .setPositiveButton("OK", {dialogInterface, i ->
+                            edit_peso.setText("")
+                            edit_idade.setText("")
+                            txt_resultado_ml.text = ""
+                        })
+                alertDialog.setNegativeButton("Cancelar", {dialogInterface, i ->
+
                 })
-            alertDialog.setNegativeButton("Cancelar", {dialogInterface, i ->})
             val dialog = alertDialog.create()
             dialog.show()
         }

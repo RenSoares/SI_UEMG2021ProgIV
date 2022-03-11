@@ -10,7 +10,7 @@ class CalcularIngestaoDiaria {
     private var resultadoMl= 0.0
     private var resultado_total_ml = 0.0
 
-    fun CalcularTotalML(peso: Double, idade: Int){
+    fun CalcularTotalMl(peso: Double, idade: Int){
 
         if (idade <= 17){
             resultadoMl = peso * ML_JOVEM
