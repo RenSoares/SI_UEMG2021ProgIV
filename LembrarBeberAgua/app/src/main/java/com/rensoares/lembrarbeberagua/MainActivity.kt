@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         supportActionBar!!.hide()
-        IniciarComponentes()
+        iniciarComponentes()
         calcularIngestaoDiaria = CalcularIngestaoDiaria()
 
         bt_calcular.setOnClickListener {
@@ -61,17 +61,13 @@ class MainActivity : AppCompatActivity() {
             dialog.show()
         }
     }
-    private fun IniciarComponentes(){
+    private fun iniciarComponentes(){
         edit_peso = findViewById(R.id.edit_peso)
         edit_idade = findViewById(R.id.edit_idade)
         bt_calcular = findViewById(R.id.bt_calcular)
         txt_resultado_ml = findViewById(R.id.txt_resultado_ml)
         ic_redefinir_dados = findViewById(R.id.ic_redefinir)
-
-
     }
 }
 
-private fun Any.setMessage(dialogDesc: Int): Any {
 
-}
