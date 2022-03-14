@@ -5,11 +5,12 @@
       <map>
         <entry key="..\:/ProgIV/SI_UEMG2021ProgIV/LembrarBeberAgua/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/ProgIV/SI_UEMG2021ProgIV/LembrarBeberAgua/app/src/main/res/drawable/bg_degrade_button.xml" value="0.21875" />
+        <entry key="..\:/ProgIV/SI_UEMG2021ProgIV/LembrarBeberAgua/app/src/main/res/drawable/container_header.xml" value="0.1445" />
         <entry key="..\:/ProgIV/SI_UEMG2021ProgIV/LembrarBeberAgua/app/src/main/res/drawable/container_resultado_ml.xml" value="0.21875" />
         <entry key="..\:/ProgIV/SI_UEMG2021ProgIV/LembrarBeberAgua/app/src/main/res/drawable/conteiner_header.xml" value="0.21128205128205127" />
         <entry key="..\:/ProgIV/SI_UEMG2021ProgIV/LembrarBeberAgua/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/ProgIV/SI_UEMG2021ProgIV/LembrarBeberAgua/app/src/main/res/drawable/ic_refresh.xml" value="0.1" />
-        <entry key="..\:/ProgIV/SI_UEMG2021ProgIV/LembrarBeberAgua/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/ProgIV/SI_UEMG2021ProgIV/LembrarBeberAgua/app/src/main/res/layout/activity_main.xml" value="0.22" />
       </map>
     </option>
   </component>

@@ -78,9 +78,9 @@ class MainActivity : AppCompatActivity() {
             calendario = Calendar.getInstance()
             horaAtual = calendario.get(Calendar.HOUR_OF_DAY)
             minutosAtuais = calendario.get(Calendar.MINUTE)
-            timePickerDialog = TimePickerDialog(this,{timePicker: TimePicker, hourOfDay: Int, minutes: int ->
+            timePickerDialog = TimePickerDialog(this,{timePicker: TimePicker, hourOfDay: Int, minutes: Int ->
                 txt_hora .text = String.format("%02d", hourOfDay)
-                txt_minutos.text = String.format("502d", minutes)
+                txt_minutos.text = String.format("%02d", minutes)
             }, horaAtual, minutosAtuais, true)
             timePickerDialog.show()
         }
